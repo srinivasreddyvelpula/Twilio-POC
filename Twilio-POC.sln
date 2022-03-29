@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilio-POC", "Twilio-POC\Twilio-POC.csproj", "{80D36282-9AE1-49AE-82DA-A164BD8477AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twilio-RecieveCalls-POC", "Twilio-RecieveCalls-POC\Twilio-RecieveCalls-POC.csproj", "{B4C5CC0F-0830-4307-A463-1C2C13FCD8E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twilio-CreateExecutionToFlow-POC", "Twilio-CreateExecutionToFlow-POC\Twilio-CreateExecutionToFlow-POC.csproj", "{A63E877E-0340-4AEF-94DE-20FEEE630FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twilio-CreateExecutionToFlowCustomParams-POC", "Twilio-CreateExecutionToFlowCustomParams-POC\Twilio-CreateExecutionToFlowCustomParams-POC.csproj", "{13BB4816-39E8-4C72-9E56-79BB50623D63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twilio-Fetch-Execution-POC", "Twilio-Fetch-Execution-POC\Twilio-Fetch-Execution-POC.csproj", "{0D43087E-1419-4CAA-B3F9-1BB357968A38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twilio-ReadExecutions-POC", "Twilio-ReadExecutions-POC\Twilio-ReadExecutions-POC.csproj", "{0F76706D-4D2B-43B2-A705-8D458BF8F7B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twilio-UpdateExecution-POC", "Twilio-UpdateExecution-POC\Twilio-UpdateExecution-POC.csproj", "{0EF367AD-4C28-48A6-ACD2-45B7E912ADD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twilio-AMD-Execution", "Twilio-AMD-Execution\Twilio-AMD-Execution.csproj", "{03488ECC-4233-4455-BBA1-70F9AEDEE803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twilio-Gatherinput-POC", "Twilio-Gatherinput-POC\Twilio-Gatherinput-POC.csproj", "{87AF54F7-814E-49DD-8354-74D0D6A94338}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80D36282-9AE1-49AE-82DA-A164BD8477AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D36282-9AE1-49AE-82DA-A164BD8477AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D36282-9AE1-49AE-82DA-A164BD8477AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D36282-9AE1-49AE-82DA-A164BD8477AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C5CC0F-0830-4307-A463-1C2C13FCD8E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C5CC0F-0830-4307-A463-1C2C13FCD8E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C5CC0F-0830-4307-A463-1C2C13FCD8E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C5CC0F-0830-4307-A463-1C2C13FCD8E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A63E877E-0340-4AEF-94DE-20FEEE630FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63E877E-0340-4AEF-94DE-20FEEE630FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63E877E-0340-4AEF-94DE-20FEEE630FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63E877E-0340-4AEF-94DE-20FEEE630FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13BB4816-39E8-4C72-9E56-79BB50623D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13BB4816-39E8-4C72-9E56-79BB50623D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13BB4816-39E8-4C72-9E56-79BB50623D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13BB4816-39E8-4C72-9E56-79BB50623D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D43087E-1419-4CAA-B3F9-1BB357968A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D43087E-1419-4CAA-B3F9-1BB357968A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D43087E-1419-4CAA-B3F9-1BB357968A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D43087E-1419-4CAA-B3F9-1BB357968A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F76706D-4D2B-43B2-A705-8D458BF8F7B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F76706D-4D2B-43B2-A705-8D458BF8F7B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F76706D-4D2B-43B2-A705-8D458BF8F7B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F76706D-4D2B-43B2-A705-8D458BF8F7B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EF367AD-4C28-48A6-ACD2-45B7E912ADD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF367AD-4C28-48A6-ACD2-45B7E912ADD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF367AD-4C28-48A6-ACD2-45B7E912ADD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF367AD-4C28-48A6-ACD2-45B7E912ADD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03488ECC-4233-4455-BBA1-70F9AEDEE803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03488ECC-4233-4455-BBA1-70F9AEDEE803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03488ECC-4233-4455-BBA1-70F9AEDEE803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03488ECC-4233-4455-BBA1-70F9AEDEE803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87AF54F7-814E-49DD-8354-74D0D6A94338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87AF54F7-814E-49DD-8354-74D0D6A94338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87AF54F7-814E-49DD-8354-74D0D6A94338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87AF54F7-814E-49DD-8354-74D0D6A94338}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {814F494D-E510-4135-9F60-82A1331FEAAD}
+	EndGlobalSection
+EndGlobal
